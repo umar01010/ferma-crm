@@ -1,11 +1,11 @@
 import React from 'react'
-import { HeaderProps } from '../../../components/Header/HeaderProps'
+import UsersSearch from "../Users/UsersSearch/UsersSearch"
 
 const DeliveryMans = () => {
     return (
         <div>
-            <HeaderProps text="Курьеры" />
-            DeliveryMans
+            <div className="products_title">Курьеры</div>
+            <UsersSearch />
         </div>
     )
 }

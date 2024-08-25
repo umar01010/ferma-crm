@@ -1,12 +1,12 @@
 import React from 'react'
-import { HeaderProps } from '../../../components/Header/HeaderProps'
 import UsersSearch from "../Users/UsersSearch/UsersSearch"
-import ProductsTable from './ProductsTable/ProductsTable'
+import ProductsTable from "../Products/ProductsTable/ProductsTable"
+import "./Products.css"
 
 const Products = () => {
     return (
         <div>
-            <HeaderProps text="Продукты" />
+            <div className="products_title">Продукты</div>
             <UsersSearch />
             <ProductsTable />
         </div>

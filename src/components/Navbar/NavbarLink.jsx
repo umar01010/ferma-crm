@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import { NavLink } from "react-router-dom";
 
 const NavbarLink = ({ text, icon, href }) => {
     return (
         <li>
-            <NavLink className="navbar_link" to={href}>
+            <NavLink className="navbar_link" to={href} activeClassName="active">
                 <span className="navbar_icon">{icon}</span>
                 <p className="navbar_text">{text}</p>
             </NavLink>
         </li>
-    )
+    );
 }
 
-export default NavbarLink
+export default NavbarLink;

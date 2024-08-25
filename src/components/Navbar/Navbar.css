@@ -23,6 +23,8 @@
     align-items: center;
     margin-top: 30px;
     font-family: "Golos Text";
+    text-decoration: none;
+    /* добавьте это, если хотите убрать подчеркивание */
 }
 
 .navbar_icon {
@@ -40,10 +42,12 @@
     text-align: left;
 }
 
-.navbar_text:hover {
+.navbar_link:hover .navbar_icon,
+.navbar_link:hover .navbar_text {
     color: #3376C7;
 }
 
-.navbar_link:hover .navbar_icon {
+.navbar_link.active .navbar_icon,
+.navbar_link.active .navbar_text {
     color: #3376C7;
 }
