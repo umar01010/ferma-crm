@@ -1,0 +1,134 @@
+.users_search_left_filter {
+  width: 128px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 18px;
+  border: none;
+  background: rgb(240, 240, 240);
+  color: rgb(26, 26, 26);
+  font-family: "Golos Text", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+}
+
+.modal_filter_table_title {
+  font-family: Golos;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  color: rgb(17, 17, 17);
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.modal_close_table {
+  cursor: pointer;
+  font-size: 24px;
+
+  color: 1.5px solid rgb(128, 128, 128);
+}
+
+.modal_filter_description {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+.model_filter_option {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 346px;
+  appearance: none;
+  outline: none;}
+.model_filter_table_roles_2 {
+  display: flex;
+  width: 506px;
+  height: 72px;
+
+  padding: 16px;
+  box-sizing: border-box;
+  border: 1px solid rgb(240, 240, 240);
+  border-radius: 16px;
+  background: rgb(250, 250, 250);
+  align-items: center;
+  justify-content: space-between;
+}
+.filter_roles {
+  color: rgb(2, 1, 5);
+  font-family: "Golos Text", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.modal_filter_IoIosArrowDown {
+  position: relative;
+  right: 30px;
+  top: 5px;
+  font-size: 20px;
+  color: rgb(179, 179, 179);
+  border-radius: 0.5px;
+}
+.modal_filter_buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.modal_filter_buttons button {
+  width: 227px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 14px;
+  font-family: Golos, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
+.modal_filter_button_cancel {
+  background: rgb(240, 240, 240);
+  color: rgb(26, 26, 26);
+}
+
+.modal_button_add {
+  background: rgb(255, 165, 0);
+  color: rgb(0, 0, 0);
+}
+
+.modal_container {
+  position: absolute;
+  padding: 16px 24px 24px 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 760px;
+  border-radius: 16px;
+  box-shadow: -6px 0px 16px 0px rgba(6, 22, 38, 0.07);
+  background: rgb(255, 255, 255);
+}
+
+.modal_filter_icon_cancel {
+  font-size: 20px;
+}
+
+.modal_icon_plus {
+  font-size: 22px;
+  font-weight: 400;
+}
