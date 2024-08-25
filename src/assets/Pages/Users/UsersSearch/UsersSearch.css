@@ -65,24 +65,6 @@
     font-size: 30px;
 }
 
-.users_search_left_filter {
-    width: 128px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 18px;
-    border: none;
-    background: rgb(240, 240, 240);
-    color: rgb(26, 26, 26);
-    font-family: "Golos Text", sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    text-align: left;
-    cursor: pointer;
-}
-
 .users_search_right_add_button {
     position: static;
     width: 164px;

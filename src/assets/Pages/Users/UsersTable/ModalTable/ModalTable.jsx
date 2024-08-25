@@ -43,34 +43,32 @@ export default function BasicModal() {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        
         <Box className="modal-container">
-          <Typography
-            id="modal-modal-title"
-            variant="h6"
-            component="h2"
-            className="title"
-          >
+          <Typography id="modal-modal-title" className="modal_deldete_title">
             Удалить
             <IoCloseOutline className="close-icon" onClick={handleClose} />
           </Typography>
-            
+          <hr />
           <Typography
-          id="modal-modal-description"
-          className="modal-description"
+            id="modal-modal-description"
+            className="modal_delete_description"
           >
-            Вы действительно хотите удалить "Janibek Maxatov"?
+            <div className="modal_delete_common">
+              <div className="modal_delet_user">
+                Вы действительно хотите удалить "Janibek Maxatov"?
+              </div>
+              <div className="modal_btn_del">
+                <button className="modal_table_cancel_button">
+                  <ImCancelCircle className="modal_ImCancelCircle" />
+                  Отменить
+                </button>
+                <button className="modal_table_delete_button">
+                  <AiOutlineDelete className="modal_AiOutlineDelete" />
+                  Да, удалить
+                </button>
+              </div>
+            </div>
           </Typography>
-          <div className="modal_btn_del">
-            <button className="cancel-button">
-              <ImCancelCircle className="modal_ImCancelCircle" />
-              Отменить
-            </button>
-            <button className="delete-button">
-              <AiOutlineDelete className="modal_AiOutlineDelete" />
-              Да, удалить
-            </button>
-          </div>
         </Box>
       </Modal>
     </div>

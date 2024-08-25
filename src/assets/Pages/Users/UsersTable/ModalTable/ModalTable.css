@@ -1,14 +1,12 @@
-.title {
-  width: 100%;
-
-  color: rgb(153, 153, 153);
-  font-family: Golos, sans-serif; /* Убедитесь, что шрифт Golos доступен */
-  font-size: 20px;
-  font-weight: 400;
-  justify-content: space-between; /* Исправлено на flex-end */
-
+.modal_deldete_title {
+  font-family: Golos;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  color: rgb(17, 17, 17);
+  justify-content: space-between;
   display: flex;
-  align-items: center; /* Выравнивание по центру */
+  align-items: center;
+  padding: 24px;
 }
 
 .close-icon {
@@ -16,8 +14,6 @@
   font-size: 20px;
   color: rgb(26, 26, 26); /* Цвет иконки, чтобы она была видна на темном фоне */
 }
-
-/* ModalTable.css */
 
 .modal_deleteicon {
   font-size: 20px;
@@ -32,25 +28,27 @@
   text-decoration: none;
 }
 
-/* ModalTable.css */
-
 .modal_btn_del {
   display: flex;
-  gap: 16px; 
+  gap: 16px;
   margin-top: 24px;
   justify-content: end;
 }
-.modal-description {
-    color: rgb(51, 51, 51);
-    font-family: Golos, sans-serif; /* Убедитесь, что шрифт Golos доступен */
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 150%;
-    letter-spacing: 0%;
-    text-align: left;
-    padding-top: 24px;
-  }
-  
+.modal-modal_delet_user {
+  color: rgb(51, 51, 51);
+  font-family: Golos, sans-serif; /* Убедитесь, что шрифт Golos доступен */
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 24px;
+}
+.modal_delete_description{
+   
+    padding: 24px;
+}
+
 .modal_btn_del button {
   width: 227px;
   height: 40px;
@@ -71,40 +69,32 @@
   cursor: pointer; /* Курсор для кнопки */
 }
 
-.modal_btn_del .cancel-button {
+.modal_btn_del .modal_table_cancel_button {
   background: rgb(240, 240, 240); /* Нейтральный фон */
   color: rgb(26, 26, 26); /* Тёмный текст */
 }
 
-.modal_btn_del .delete-button {
+.modal_btn_del .modal_table_delete_button {
   background: rgb(255, 165, 0); /* Оранжевый фон */
-  color: rgb(255, 255, 255); /* Белый текст */
+  color: rgb(0, 0, 0); /* Белый текст */
 }
-
-/* ModalTable.css */
 
 .modal-container {
   position: absolute;
-  padding: 16px 24px 24px 24px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 760px;
   border-radius: 16px;
-
   border-radius: 16px;
-
   box-shadow: -6px 0px 16px 0px rgba(6, 22, 38, 0.07);
   background: rgb(255, 255, 255);
 }
 
-
-.modal_ImCancelCircle{
-    font-size: 20px;
+.modal_ImCancelCircle {
+  font-size: 20px;
 }
 
-
-.modal_AiOutlineDelete{
-    font-size: 20px;
-   
+.modal_AiOutlineDelete {
+  font-size: 20px;
 }
