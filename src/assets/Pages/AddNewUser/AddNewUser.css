@@ -1,0 +1,157 @@
+.new_head {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.new_back {
+    width: 117px;
+    height: 48px;
+    border-radius: 18px;
+
+    /* Neutral/600 */
+    background: rgb(240, 240, 240);
+    padding: 12px 16px 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.turn {
+    width: 30px;
+    height: 30px;
+}
+
+.new_add {
+    width: 244px;
+    height: 48px;
+    border-radius: 18px;
+
+    /* Neutral/600 */
+    background: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.plus {
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid black;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 900;
+}
+
+.btn {
+    color: rgb(26, 26, 26);
+    font-family: "Golos Text", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.add_new_main {
+    margin-top: 20px;
+}
+
+.add_new_logo input {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+
+    /* background: url(image); */
+}
+
+.add_new_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add_bio_main {
+    display: flex;
+    gap: 60px;
+    margin-top: 10px;
+}
+
+.add_lego_title {
+    color: rgb(2, 1, 5);
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.add_bio1 {
+    color: rgb(2, 1, 5);
+    font-family: "Golos Text", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.add_bio_name {
+    color: rgb(2, 1, 5);
+    font-family: "Golos Text", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.name_inp input {
+    width: 280px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 236, 239);
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.inp2 {
+    margin-top: 30px;
+}
+
+.between {
+    width: 95%;
+    height: 0;
+    box-sizing: border-box;
+    /* Dark Grey/30 */
+    border: 1px solid rgb(233, 236, 239);
+    border-radius: 12px;
+
+    /* White */
+    background: rgb(255, 255, 255);
+    margin-top: 0px;
+}
+
+.add_bio_main2 {
+    display: flex;
+    gap: 94px;
+    margin-top: 30px;
+}
+
+.between {
+    margin-top: 40px;
+}
+
+.choise_select {
+    width: 448.5px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 236, 239);
+    border-radius: 12px;
+    font-family: "Golos Text", sans-serif;
+    background: rgb(255, 255, 255);
+    padding-left: 20px;
+    margin-top: 5px;
+}
