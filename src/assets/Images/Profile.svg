@@ -1,0 +1,20 @@
+<svg width="200.000000" height="200.000000" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip5001_48011">
+			<rect id="Icons8 User 1" rx="-0.500000" width="129.000000" height="129.000000" transform="translate(35.500000 35.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip5001_48010">
+			<rect id="Frame 497" rx="15.500000" width="199.000000" height="199.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Frame 497" rx="15.500000" width="199.000000" height="199.000000" transform="translate(0.500000 0.500000)" fill="#CCDDF1" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip5001_48010)">
+		<rect id="Icons8 User 1" rx="-0.500000" width="129.000000" height="129.000000" transform="translate(35.500000 35.500000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip5001_48011)">
+			<path id="Vector" d="M115.42 119.57C115.04 115.38 115.19 112.45 115.19 108.62C117.09 107.62 120.49 101.27 121.06 95.91C122.55 95.79 124.91 94.33 125.6 88.59C125.97 85.5 124.49 83.76 123.59 83.22C126.02 75.91 131.06 53.32 114.26 50.98C112.53 47.95 108.1 46.41 102.35 46.41C79.33 46.84 76.55 63.8 81.6 83.22C80.7 83.76 79.23 85.5 79.59 88.59C80.29 94.33 82.64 95.79 84.13 95.91C84.7 101.27 88.24 107.62 90.14 108.62C90.14 112.45 90.28 115.38 89.9 119.57C85.35 131.82 54.61 128.38 53.19 152L152 152C150.58 128.38 119.98 131.82 115.42 119.57Z" fill="#99BBE3" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
