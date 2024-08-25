@@ -9,7 +9,7 @@
 table {
   border-collapse: collapse;
   width: 100%;
-  border-color:1px solid #3376c7;
+  border-color: 1px solid #3376c7;
 }
 
 .users_table_tr {
@@ -65,40 +65,49 @@ table {
   background-color: #ffb84d;
   color: #ffb84d;
   border-radius: 0px 8px 8px 0px;
-
 }
 
+.table__LuEye {
+  font-size: 20px;
+}
 .table__icon {
   width: 28px;
   height: 28px;
-  font-size: 16px;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #e6eef8;
+  border: none;
+
   color: #3376c7;
+}
+
+.table_LuPencil {
+  font-size: 20px;
 }
 
 .table__pen {
   width: 28px;
   height: 28px;
-  font-size: 15rem;
   border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #fff8ee;
   color: #ffb84d;
+  border: none;
 }
-.table__delete {
-  width: 28px;
-  height: 28px;
-  font-size: 15px;
-  border-radius: 4px;
-  background: #ffe6e6;
-  color: #ff0000;
-}
+
 .table__btn {
+  height: 28px;
+  width: 28px;
   height: 28px;
 }
 
 .td_icon {
   display: flex;
+  align-items: center;
   gap: 8px;
 }
 
