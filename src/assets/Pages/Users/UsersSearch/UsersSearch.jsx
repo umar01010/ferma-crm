@@ -1,5 +1,6 @@
 import React from 'react'
 import "./UsersSearch.css"
+import { Link } from 'react-router-dom';
 
 // Icons
 import { IoSearchSharp } from "react-icons/io5";
@@ -23,7 +24,9 @@ const UsersSearch = () => {
                         <button variant="contained" className="users_search_left_filter"><IoOptionsOutline />Фильтр</button>
                     </div>
 
-                    <button className="users_search_right_add_button"><FiPlusCircle className='users_search_right_add_icon' /> Добавить</button>
+                    <Link to="/addnewuser">
+                        <button className="users_search_right_add_button"><FiPlusCircle className='users_search_right_add_icon' /> Добавить</button>
+                    </Link>
                 </div>
             </div>
         </section>

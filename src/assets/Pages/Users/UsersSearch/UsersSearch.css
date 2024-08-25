@@ -102,6 +102,7 @@
     text-align: left;
     cursor: pointer;
     border: none;
+    text-decoration: none;
 }
 
 .users_search_right_add_icon {
