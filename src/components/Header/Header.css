@@ -1,0 +1,133 @@
+.header__main {
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+/* Эффект при наведении на заголовок */
+.header__main:hover {
+    background-color: #f1f4f8;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Заголовок */
+.header__title {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: 0.3s ease;
+    font-family: "Golos Text", sans-serif;  
+    cursor: pointer;
+}
+
+/* Эффект при наведении на заголовок */
+.header__title:hover {
+    color: #0056b3;
+    transform: scale(1.08);
+}
+
+/* Правый блок заголовка */
+.header__right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+/* Селектор языка */
+.header__lang-select {
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    transition: 0.3s ease;
+    font-family: "Golos Text", sans-serif;
+}
+
+/* Эффект при наведении на селектор языка */
+.header__lang-select:hover {
+    background-color: #e2e6ea;
+    transform: scale(1.05);
+}
+
+/* Логотип рядом с селектором языка */
+.header__logo-lang {
+    position: relative;
+    left: 10px;
+    top: 2px;
+    transition: transform 0.3s ease;
+}
+
+/* Эффект при наведении на логотип */
+.header__logo-lang:hover {
+    transform: rotate(10deg);
+}
+
+/* Профиль пользователя */
+.header__profile {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+/* Эффект при наведении на профиль */
+.header__profile:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
+
+/* Аватар пользователя */
+.header__avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+/* Эффект при наведении на аватар */
+.header__avatar:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/* Информация о пользователе */
+.header__bio {
+    margin-left: 15px;
+}
+
+.header__name,
+.header__job {
+    font-family: "Golos Text", sans-serif;
+    transition: color 0.3s ease;
+}
+
+.header__name {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header__job {
+    color: #767676;
+    font-size: 14px;
+}
+
+/* Эффект при наведении на имя и должность пользователя */
+.header__name:hover,
+.header__job:hover {
+    color: #0056b3;
+}
