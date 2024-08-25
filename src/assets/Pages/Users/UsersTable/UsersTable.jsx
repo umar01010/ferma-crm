@@ -3,11 +3,10 @@ import "./UsersTable.css";
 import { UsersTableProps } from "./UsersTableProps";
 import { LuEye } from "react-icons/lu";
 import { LuPencil } from "react-icons/lu";
-import { RiDeleteBinLine } from "react-icons/ri";
 import { CardActionArea } from "@mui/material";
 import { IoChevronDownOutline } from "react-icons/io5";
 import Pagination from "@mui/material/Pagination";
-
+import ModalTable from "./ModalTable/ModalTable";
 const UsersTable = () => {
   return (
     <div>
@@ -55,13 +54,15 @@ const UsersTable = () => {
                     <UsersTableProps roles="Курьер" />
                   </td>
                   <td className="td_icon">
-                    <UsersTableProps
+                  <UsersTableProps
                       icon={
                         <CardActionArea
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -72,21 +73,14 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+                    <ModalTable />
                   </td>
                 </tr>
 
@@ -104,13 +98,15 @@ const UsersTable = () => {
                     <UsersTableProps roles="Курьер" />
                   </td>
                   <td className="td_icon">
-                    <UsersTableProps
+                  <UsersTableProps
                       icon={
                         <CardActionArea
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -121,21 +117,14 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+                    <ModalTable />
                   </td>
                 </tr>
 
@@ -153,13 +142,15 @@ const UsersTable = () => {
                     <UsersTableProps roles="Курьер" />
                   </td>
                   <td className="td_icon">
-                    <UsersTableProps
+                  <UsersTableProps
                       icon={
                         <CardActionArea
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -170,21 +161,15 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+
+                    <ModalTable />
                   </td>
                 </tr>
 
@@ -202,13 +187,15 @@ const UsersTable = () => {
                     <UsersTableProps roles="Курьер" />
                   </td>
                   <td className="td_icon">
-                    <UsersTableProps
+                  <UsersTableProps
                       icon={
                         <CardActionArea
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -219,21 +206,14 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+                    <ModalTable />
                   </td>
                 </tr>
 
@@ -251,13 +231,15 @@ const UsersTable = () => {
                     <UsersTableProps roles="Курьер" />
                   </td>
                   <td className="td_icon">
-                    <UsersTableProps
+                  <UsersTableProps
                       icon={
                         <CardActionArea
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -268,21 +250,14 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+                    <ModalTable />
                   </td>
                 </tr>
 
@@ -300,13 +275,15 @@ const UsersTable = () => {
                     <UsersTableProps roles="Курьер" />
                   </td>
                   <td className="td_icon">
-                    <UsersTableProps
+                  <UsersTableProps
                       icon={
                         <CardActionArea
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -317,21 +294,15 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+
+                    <ModalTable />
                   </td>
                 </tr>
 
@@ -355,7 +326,9 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -366,21 +339,14 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+                    <ModalTable />
                   </td>
                 </tr>
 
@@ -398,13 +364,15 @@ const UsersTable = () => {
                     <UsersTableProps roles="Курьер" />
                   </td>
                   <td className="td_icon">
-                    <UsersTableProps
+                  <UsersTableProps
                       icon={
                         <CardActionArea
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuEye className="table__icon" />
+                          <button className="table__icon">
+                          <LuEye className="table__LuEye" />
+                          </button>
                         </CardActionArea>
                       }
                     />
@@ -415,21 +383,15 @@ const UsersTable = () => {
                           variant="outlined"
                           className="table__btn"
                         >
-                          <LuPencil className="table__pen" />
+                          <button className="table__pen">
+                            <LuPencil className="table_LuPencil" />
+                          </button>
                         </CardActionArea>
                       }
                     />
 
-                    <UsersTableProps
-                      icon={
-                        <CardActionArea
-                          variant="outlined"
-                          className="table__btn"
-                        >
-                          <RiDeleteBinLine className="table__delete" />
-                        </CardActionArea>
-                      }
-                    />
+
+                    <ModalTable />
                   </td>
                 </tr>
               </tbody>
