@@ -6,6 +6,7 @@ const Products = () => {
         <div>
             <HeaderProps text="Продукты" />
             Products
+            987654ewsdfghjkl;lkj
         </div>
     )
 }
